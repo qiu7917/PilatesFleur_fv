@@ -157,17 +157,17 @@ $(window).on('load scroll', function () {
 
 /*=================================================
 //    cta fadein
-===================================================*/
+    ===================================================*/
 
-let cta = $(".cta");
-cta.hide();
+    // let cta = $(".cta");
+    // cta.hide();
 
-$(window).scroll(function () {
-    let scrollThreshold = 500;
+    // $(window).scroll(function () {
+    //     let scrollThreshold = 500;
 
-    if ($(window).scrollTop() > scrollThreshold) {
-        cta.fadeIn();
-    } else {
-        cta.fadeOut();
-    }
-});
+    //     if ($(window).scrollTop() > scrollThreshold) {
+    //         cta.fadeIn();
+    //     } else {
+    //         cta.fadeOut();
+    //     }
+    // });
